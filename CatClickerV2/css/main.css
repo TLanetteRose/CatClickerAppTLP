@@ -1,0 +1,70 @@
+/* Main Styles */
+
+
+* {
+	outline: 1px solid black;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	margin: 50px;
+}
+
+#container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#main {
+	padding-bottom: 3.5rem; /* Footer height */
+}
+
+img {
+	width: 400px;
+	height: auto;
+	padding: 20px;
+	position: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul > li {
+	margin: 50px;
+}
+
+#cat_count {
+	margin: 20px;
+}
+
+#footer {
+	background-color: lightblue;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3.5rem; /* Footer height */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+#footer p {
+	font-family: 'Satisfy', cursive;
+}
