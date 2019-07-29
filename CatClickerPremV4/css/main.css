@@ -1,0 +1,94 @@
+/* Main Styles */
+
+
+* {
+	/*outline: 1px solid black;*/
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+	height: 50px;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	margin: 60px;
+	font-family: 'Satisfy', cursive;
+}
+
+h1, ul, #display {
+	text-align: center;
+	align-content: center;
+}
+
+#container {
+	position: relative;
+	min-height: 100vh;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	justify-content: center;
+	padding-top: 1rem;
+	padding-bottom: 3.5rem; /* Footer height */
+}
+
+img {
+	width: 300px;
+	height: auto;
+	border-radius: 15px;
+	border: solid 5px lightblue;
+	margin: 20px;
+	padding: 20px;
+	position: center;
+}
+
+ul {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	margin: 10px;
+}
+
+ul > li {
+	margin: 50px;
+}
+
+li {
+	padding: 10px;
+	border: solid 5px lightblue;
+}
+
+/*#cat_count {
+	margin: 20px;
+}*/
+
+#footer {
+	background-color: lightblue;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3.5rem; /* Footer height */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+#footer p {
+	font-family: 'Satisfy', cursive;
+	font-size: 0.75em;
+}
